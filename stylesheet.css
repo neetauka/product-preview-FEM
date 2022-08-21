@@ -1,0 +1,86 @@
+
+
+/* variables */
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream:hsl(30, 38%, 92%);
+    --Very-dark-blue:hsl(212, 21%, 14%);
+    --Dark-grayish-blue:hsl(228, 12%, 48%);
+    --White:hsl(0, 0%, 100%);
+
+}
+
+/* resets */
+body,p,h2,h3{
+    margin:0;
+    padding:0;
+}
+/* base styles */
+
+body{
+    background-color: var(--Cream);
+}
+.price-tag h2{
+    color:var(--Dark-cyan);
+}
+.price-tag .sub-para{
+    color:var(--Dark-grayish-blue);
+    vertical-align: super;
+    text-decoration: line-through;
+    margin-left:15px;
+}
+.button{
+    height: 20px;
+    width:500px;
+    background-color: var(--Dark-cyan);
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+.button>img{
+    margin-right:10px;
+}
+.button>span{
+    color:var(--White);
+    font-family: 'Montserrat Bold';
+}
+.button:hover{
+    background-color: var(--Very-dark-blue);
+    cursor: pointer;
+}
+.right-card h2{
+    font-family: 'Montserrat Bold';
+}
+/* fonts */
+@font-face{
+    font-family:'MontserratAlternates-Bold';
+    src:url('design\font\MontserratAlternates-Bold.ttf');
+}
+
+/* mobile styles */
+
+/* small tablets styles */
+@media screen and (min-width:620px){
+    
+}
+
+
+/* large tabletss & laptop styles */
+@media screen and (min-width:620px){
+    
+}
+
+
+/* desktop styles */
+@media screen and (min-width:620px){
+    
+}
+
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
